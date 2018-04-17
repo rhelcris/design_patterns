@@ -3,7 +3,7 @@ package comportamental.padrao_strategy.investimento;
 public class TesteDeInvestimento {
 
 	public static void main(String[] args) {
-		Investidor joao = new Investidor(TipoDoInvestidor.CONSERVADOR, 3500.0);
+		Investidor joao = new Investidor(TipoDoInvestidor.MODERADO, 3500.0);
 		Investimento investimento;
 		
 		if(joao.getTipoInvestidor() == TipoDoInvestidor.CONSERVADOR) {
