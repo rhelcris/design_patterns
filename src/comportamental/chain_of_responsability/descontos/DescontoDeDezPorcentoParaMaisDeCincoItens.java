@@ -1,4 +1,4 @@
-package comportamental.chain_of_responsability;
+package comportamental.chain_of_responsability.descontos;
 
 public class DescontoDeDezPorcentoParaMaisDeCincoItens implements Desconto {
 
